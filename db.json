@@ -1,0 +1,765 @@
+{
+    "bookings": [
+        {
+            "id": "1460588",
+            "airWaybill": {
+                "prefix": "055",
+                "serial": "22896661",
+                "consolidation": false,
+                "issuedOn": "2024-10-10"
+            },
+            "issueCarrier": {
+                "code": "AZ",
+                "name": "ITALIA TRASPORTO AEREO SPA"
+            },
+            "origin": {
+                "code": "FCO",
+                "type": "AIRPORT",
+                "name": "Rome Fiumicino",
+                "timeArea": "Europe/Rome",
+                "utcOffset": 60
+            },
+            "destination": {
+                "code": "BOS",
+                "type": "AIRPORT",
+                "name": "Boston",
+                "timeArea": "America/New_York",
+                "utcOffset": -300,
+                "restrictExport": "NO STEEL DRUMS ACCEPTED FOR TRUCKING TRANSPORT TO JFK\n  DOOR DELIVERY     : NIL   \n*NO EXPORT PER ACCEPTED >24 BEFORE FLIGHT KK W/O PRIOR ACCORD FROM BOS.FK \n PRE-ALERT FOR IMPORT ACT \n PRE ALERT FOR COL\nPHARMA PIL ICE IMPORT ONLY ALLOWED. \n ARRIVAL ON DAY 5, 6 AND 7 NOT ALLOWED DUE TO CUSTOMS CLOSURE.\n\n  US CUSTOMS/FISH AND WILDLIFE \n  HOURS OF OPERATION : 0800-1700 MON-FRI \n  ENVIRONMENT    : AMS STATION \n  SPECIFICS/RESTRICTIONS:",
+                "restrictImport": "SECURITY\n  IMPORT: ELECTRONIC SUBMISSION OF HAWB INFORMATION FOR CBP 4HOURS PRIOR TO ARRIVAL     INTO USA.\n  PRODUCT HANDLING  \n  ** ALL PER REQUIRES PREADVICE AND ACC BOSFKAF**                               \n  DOCUMENTS/AWB                                                                .\n  OTHER REQUIREMENTS  : SEE TACT PAGES  CARRIER INFORMATION 8.3 IMPORT/TRANSIT .\n                        AND EXPORT REGULATIONS 7.3  SEE ITEM 8 USA. \n                       NO CASH TRANSACTIONS ACCEPTED.           \n\n  GENERAL                                                                       \n  LANGUAGE ON TELEX       : ENGLISH                                            .\n  PARTIAL SHIPMENTS ACCEPTED : YES",
+                "restrictTransit": "TRANSIT DELAYS          : RFS SAME DAY ARRIVAL 1ST FLT NEXT DAY ON 2ND FLT"
+            },
+            "shippersReferenceNumber": null,
+            "agent": {
+                "accountNumber": "38470500014",
+                "name": "AIR SEA MALL SRL",
+                "clientType": [
+                    "AGENT"
+                ],
+                "type": "AGT",
+                "branchCode": "FCO",
+                "salesAreaCode": "FCO",
+                "status": "Active",
+                "stockholder": true,
+                "agentGroups": [
+                ]
+            },
+            "status": "CONFIRMED",
+            "salesArea": {
+                "code": "FCO",
+                "countryCode": "IT",
+                "name": "Italia"
+            },
+            "currency": {
+                "code": "EUR",
+                "name": "EURO"
+            },
+            "shipmentChargeCode": null,
+            "freightChargeType": "Prepaid",
+            "otherChargesType": "Prepaid",
+            "reference": null,
+            "customsOriginCode": "X",
+            "customsSecurityNotifications": null,
+            "customsSecurityStatusCode": null,
+            "iataClassRuleCode": null,
+            "pieces": 3,
+            "weight": {
+                "amount": 291.5,
+                "unit": "KG"
+            },
+            "volume": {
+                "amount": 1.259,
+                "unit": "MC"
+            },
+            "densityCode": null,
+            "chargeableWeight": {
+                "amount": 292,
+                "unit": "KG"
+            },
+            "slac": null,
+            "countOfUNNumbers": null,
+            "natureOfGoods": "TRANSISTORS",
+            "adhocPrices": [
+            ],
+            "movementPriority": "GE",
+            "dimensions": {
+                "measurements": [
+                    {
+                        "id": "1",
+                        "pieces": 1,
+                        "length": 73,
+                        "width": 52,
+                        "height": 61,
+                        "volume": {
+                            "amount": 0.232,
+                            "unit": "MC"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "pieces": 1,
+                        "length": 73,
+                        "width": 52,
+                        "height": 81,
+                        "volume": {
+                            "amount": 0.307,
+                            "unit": "MC"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "pieces": 1,
+                        "length": 100,
+                        "width": 80,
+                        "height": 90,
+                        "volume": {
+                            "amount": 0.72,
+                            "unit": "MC"
+                        }
+                    }
+                ],
+                "unit": "CMT"
+            },
+            "otherCustomsAndSecurityInformation": null,
+            "routing": [
+                {
+                    "transportMeans": {
+                        "id": "2412587",
+                        "reference": "AZ614/13Oct",
+                        "carrier": {
+                            "code": "AZ",
+                            "name": "ITALIA TRASPORTO AEREO SPA"
+                        },
+                        "number": "614",
+                        "date": "2024-10-13",
+                        "mode": "AIR",
+                        "scheduledDeparture": "2024-10-13T10:15:00+02:00",
+                        "scheduledArrival": "2024-10-13T13:35:00-04:00",
+                        "aircraftType": {
+                            "code": "330",
+                            "name": ""
+                        }
+                    },
+                    "pieces": 3,
+                    "weight": {
+                        "amount": 291.5,
+                        "unit": "KG"
+                    },
+                    "volume": {
+                        "amount": 1.259,
+                        "unit": "MC"
+                    },
+                    "dryIcePieces": 0,
+                    "id": "1",
+                    "origin": {
+                        "code": "FCO",
+                        "type": "AIRPORT",
+                        "name": "Rome Fiumicino",
+                        "timeArea": "Europe/Rome",
+                        "utcOffset": 60
+                    },
+                    "destination": {
+                        "code": "BOS",
+                        "type": "AIRPORT",
+                        "name": "Boston",
+                        "timeArea": "America/New_York",
+                        "utcOffset": -300,
+                        "restrictExport": "NO STEEL DRUMS ACCEPTED FOR TRUCKING TRANSPORT TO JFK\n  DOOR DELIVERY     : NIL   \n*NO EXPORT PER ACCEPTED >24 BEFORE FLIGHT KK W/O PRIOR ACCORD FROM BOS.FK \n PRE-ALERT FOR IMPORT ACT \n PRE ALERT FOR COL\nPHARMA PIL ICE IMPORT ONLY ALLOWED. \n ARRIVAL ON DAY 5, 6 AND 7 NOT ALLOWED DUE TO CUSTOMS CLOSURE.\n\n  US CUSTOMS/FISH AND WILDLIFE \n  HOURS OF OPERATION : 0800-1700 MON-FRI \n  ENVIRONMENT    : AMS STATION \n  SPECIFICS/RESTRICTIONS:",
+                        "restrictImport": "SECURITY\n  IMPORT: ELECTRONIC SUBMISSION OF HAWB INFORMATION FOR CBP 4HOURS PRIOR TO ARRIVAL     INTO USA.\n  PRODUCT HANDLING  \n  ** ALL PER REQUIRES PREADVICE AND ACC BOSFKAF**                               \n  DOCUMENTS/AWB                                                                .\n  OTHER REQUIREMENTS  : SEE TACT PAGES  CARRIER INFORMATION 8.3 IMPORT/TRANSIT .\n                        AND EXPORT REGULATIONS 7.3  SEE ITEM 8 USA. \n                       NO CASH TRANSACTIONS ACCEPTED.           \n\n  GENERAL                                                                       \n  LANGUAGE ON TELEX       : ENGLISH                                            .\n  PARTIAL SHIPMENTS ACCEPTED : YES",
+                        "restrictTransit": "TRANSIT DELAYS          : RFS SAME DAY ARRIVAL 1ST FLT NEXT DAY ON 2ND FLT"
+                    },
+                    "bookingClosedOn": "2024-10-13T08:15:00.000Z",
+                    "allocation": {
+                        "code": "KK",
+                        "description": "SPACE CONFIRMED"
+                    },
+                    "actionStatusCode": "FBL",
+                    "actionStatusValue": "Adviced",
+                    "receivedPieces": 3
+                }
+            ],
+            "shipper": {
+                "accountNumber": "~001460588S",
+                "name": "SEMIKRON DANFOSS S R L",
+                "clientType": [
+                    "SHIPPER"
+                ],
+                "status": "Active",
+                "address": {
+                    "address": "VIA LAURENTINA KM 24 200",
+                    "zipCode": "00040",
+                    "city": "POMEZIA",
+                    "stateOrProvince": "RM",
+                    "country": {
+                        "code": "IT",
+                        "name": "ITALY"
+                    }
+                },
+                "isTemp": true
+            },
+            "emergencyContact": null,
+            "consignee": {
+                "accountNumber": "~001460588C",
+                "name": "SEMIKRON DANFOSS INC",
+                "clientType": [
+                    "CONSIGNEE"
+                ],
+                "status": "Active",
+                "address": {
+                    "address": "11  EXECUTIVE DRIVE",
+                    "zipCode": "03051",
+                    "city": "HUDSON",
+                    "stateOrProvince": "NH",
+                    "country": {
+                        "code": "US",
+                        "name": "USA"
+                    }
+                },
+                "isTemp": true
+            },
+            "specialHandlingCodes": [
+                {
+                    "code": "ECW",
+                    "description": "Code for Book by ECargoWare"
+                }
+            ],
+            "excludeBookingRelease": false,
+            "productCode": "GEN",
+            "priceClassCode": "WEB",
+            "handlingRemarks": [
+            ],
+            "specialServiceRequest": null,
+            "otherServiceInformation": null,
+            "remarks": null,
+            "iataNoteCode": null,
+            "temperature": [
+            ],
+            "price": null,
+            "bidPriceEvaluation": null,
+            "bidPriceEvaluationRemarks": null,
+            "bookingType": null,
+            "commodityCode": null,
+            "containerCounts": null,
+            "includesShipperBuiltUnits": null,
+            "dryIce": null,
+            "avi": null,
+            "dangerousGoods": null,
+            "irregularities": null,
+            "notes": null,
+            "costs": null,
+            "customs": {
+                "consolidatedStatusColor": -2894893,
+                "notifications": [
+                ]
+            },
+            "ratingLines": null,
+            "valueForCarriage": 0,
+            "valueForCustoms": 0,
+            "overSize": false,
+            "mustFly": false,
+            "breakDown": false,
+            "bookOnRemainingAllotmentSpace": false,
+            "softBookingId": null,
+            "deliveryCall": false,
+            "deliveryRemarks": null,
+            "createdOn": "2024-10-09T09:59:03.211Z",
+            "createdBy": "ECARGOWARE",
+            "modifiedOn": "2024-10-11T14:03:20.328Z",
+            "modifiedBy": "System",
+            "warnings": [
+            ],
+            "_links": {
+                "self": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1460588"
+                },
+                "cancel": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1460588/cancellation-requests"
+                },
+                "void": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1460588/void-requests"
+                },
+                "price": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1460588"
+                }
+            },
+            "spaadhocIndicator": false,
+            "eawb": null,
+            "ULDs": [
+            ],
+            "OSIRemarks": [
+                "PRICE:496.4"
+            ]
+        },
+        {
+            "id": "1436258",
+            "airWaybill": {
+                "prefix": "055",
+                "serial": "23766945",
+                "consolidation": false
+            },
+            "issueCarrier": {
+                "code": "AZ",
+                "name": "ITALIA TRASPORTO AEREO SPA"
+            },
+            "origin": {
+                "code": "FCO",
+                "type": "AIRPORT",
+                "name": "Rome Fiumicino",
+                "timeArea": "Europe/Rome",
+                "utcOffset": 60
+            },
+            "destination": {
+                "code": "MIA",
+                "type": "AIRPORT",
+                "name": "Miami",
+                "timeArea": "America/New_York",
+                "utcOffset": -300,
+                "restrictExport": "EXPORT OVERSIZED SHIPMENTS THAT REQUIRE FLATBED TRUCKS.                       \n  PLEASE BE SURE TO CONTACT THE GHA 786-437-2376 24 HRS                         \n  IN ADVANCE TO ARRANGE RAMP ACCESS WITH AIRPORT AUTHORITIES.                   \n  YOU MUST PROVIDE THE GHA WITH THE NAME OF THE TRUCKING COMPANY                \n  AND ANTICIPATED ARRIVAL (DELIVERY) TIME. THANK YOU.\n  SECURITY: VAL CARGO ROOM YES / VAL CAGE YES (BOTH LIMITED TO 1MC).            \n  BANKNOTES MUST BE COLLECTED SAME DAY AS ARRIVAL/FRACTIONS PROHIBITED.",
+                "restrictImport": "VAL FRACTIONS REQUIRING OVERNIGHT STORAGE SUBJECT TO ADDITIONAL               \n  SECURITY CHARGES. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.   \nPHARMA CRT 15/25 SHIPMENT IMPORT OPEN // PRE ALERT MESSAGE REQUIRED          \nALL VALUABLE  VULNERABLE AND SECURITY SENSITIVE SHIPMENTS REQUIRE             \n  SECURITY RAMP ESCORT. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.    \n  IMPORT: ELECTRONIC SUBMISSION  OF HAWB INFORMATION FOR CBP 4 HOURS PRIOR TO   \n          ARRIVAL IN USA FROM EUROPE",
+                "restrictTransit": "AVI NOTICE FOR LIVE ANIMALS INTO MIA (IMPORT):                                \n  DO NOT SEND AVI ON CC BASIS. PP ONLY. DO NOT ASK FOR CC ACCORD.               \n  YOU ARE WELCOME TO SEND AVI ON PP BASIS.                                      \n                                                                                \n  US CUSTOMS/FISH AND WILDLIFE                                                  \n *********************                                                          \n  HOURS OF OPERATION : MON-SUN  0800-1600                                       \n  ENVIRONMENT        : AMS STATION                                              \n  SPECIFICS/RESTRICTIONS:                                                       \n  CBP / US CUSTOMS CBP                                                          \n  NORMAL OPERATING HOURS 08H00-16H00. AFTER HOURS AVI CLEARANCE AVAILABLE       \n  PHONE 305-869-2740/2769                                                       \n  AGENCY IS LOCATED AT CARGO CLEARANCE CENTER- 6601 NW"
+            },
+            "shippersReferenceNumber": null,
+            "agent": {
+                "accountNumber": "38472590015",
+                "name": "GABELLA SERVIZI INT.LI SRL",
+                "clientType": [
+                    "AGENT"
+                ],
+                "type": "AGT",
+                "branchCode": "FCO",
+                "salesAreaCode": "FCO",
+                "status": "Active",
+                "stockholder": true,
+                "agentGroups": [
+                ]
+            },
+            "status": "CONFIRMED",
+            "salesArea": {
+                "code": "FCO",
+                "countryCode": "IT",
+                "name": "Italia"
+            },
+            "currency": {
+                "code": "EUR",
+                "name": "EURO"
+            },
+            "shipmentChargeCode": null,
+            "freightChargeType": "Prepaid",
+            "otherChargesType": "Prepaid",
+            "reference": "cargoone",
+            "customsOriginCode": null,
+            "customsSecurityNotifications": null,
+            "customsSecurityStatusCode": null,
+            "iataClassRuleCode": null,
+            "pieces": 1,
+            "weight": {
+                "amount": 60,
+                "unit": "KG"
+            },
+            "volume": {
+                "amount": 0.499,
+                "unit": "MC"
+            },
+            "densityCode": null,
+            "chargeableWeight": {
+                "amount": 83.5,
+                "unit": "KG"
+            },
+            "slac": null,
+            "countOfUNNumbers": null,
+            "natureOfGoods": "GENERAL",
+            "adhocPrices": [
+            ],
+            "movementPriority": "S3",
+            "dimensions": {
+                "measurements": [
+                    {
+                        "id": "1",
+                        "pieces": 1,
+                        "length": 120,
+                        "width": 80,
+                        "height": 52,
+                        "volume": {
+                            "amount": 0.499,
+                            "unit": "MC"
+                        }
+                    }
+                ],
+                "unit": "CMT"
+            },
+            "otherCustomsAndSecurityInformation": null,
+            "routing": [
+                {
+                    "transportMeans": {
+                        "id": "2411987",
+                        "reference": "AZ630/12Oct",
+                        "carrier": {
+                            "code": "AZ",
+                            "name": "ITALIA TRASPORTO AEREO SPA"
+                        },
+                        "number": "630",
+                        "date": "2024-10-12",
+                        "mode": "AIR",
+                        "scheduledDeparture": "2024-10-12T10:40:00+02:00",
+                        "scheduledArrival": "2024-10-12T16:00:00-04:00",
+                        "aircraftType": {
+                            "code": "339",
+                            "name": "Airbus 339"
+                        }
+                    },
+                    "pieces": 1,
+                    "weight": {
+                        "amount": 60,
+                        "unit": "KG"
+                    },
+                    "volume": {
+                        "amount": 0.499,
+                        "unit": "MC"
+                    },
+                    "dryIcePieces": 0,
+                    "id": "1",
+                    "origin": {
+                        "code": "FCO",
+                        "type": "AIRPORT",
+                        "name": "Rome Fiumicino",
+                        "timeArea": "Europe/Rome",
+                        "utcOffset": 60
+                    },
+                    "destination": {
+                        "code": "MIA",
+                        "type": "AIRPORT",
+                        "name": "Miami",
+                        "timeArea": "America/New_York",
+                        "utcOffset": -300,
+                        "restrictExport": "EXPORT OVERSIZED SHIPMENTS THAT REQUIRE FLATBED TRUCKS.                       \n  PLEASE BE SURE TO CONTACT THE GHA 786-437-2376 24 HRS                         \n  IN ADVANCE TO ARRANGE RAMP ACCESS WITH AIRPORT AUTHORITIES.                   \n  YOU MUST PROVIDE THE GHA WITH THE NAME OF THE TRUCKING COMPANY                \n  AND ANTICIPATED ARRIVAL (DELIVERY) TIME. THANK YOU.\n  SECURITY: VAL CARGO ROOM YES / VAL CAGE YES (BOTH LIMITED TO 1MC).            \n  BANKNOTES MUST BE COLLECTED SAME DAY AS ARRIVAL/FRACTIONS PROHIBITED.",
+                        "restrictImport": "VAL FRACTIONS REQUIRING OVERNIGHT STORAGE SUBJECT TO ADDITIONAL               \n  SECURITY CHARGES. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.   \nPHARMA CRT 15/25 SHIPMENT IMPORT OPEN // PRE ALERT MESSAGE REQUIRED          \nALL VALUABLE  VULNERABLE AND SECURITY SENSITIVE SHIPMENTS REQUIRE             \n  SECURITY RAMP ESCORT. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.    \n  IMPORT: ELECTRONIC SUBMISSION  OF HAWB INFORMATION FOR CBP 4 HOURS PRIOR TO   \n          ARRIVAL IN USA FROM EUROPE",
+                        "restrictTransit": "AVI NOTICE FOR LIVE ANIMALS INTO MIA (IMPORT):                                \n  DO NOT SEND AVI ON CC BASIS. PP ONLY. DO NOT ASK FOR CC ACCORD.               \n  YOU ARE WELCOME TO SEND AVI ON PP BASIS.                                      \n                                                                                \n  US CUSTOMS/FISH AND WILDLIFE                                                  \n *********************                                                          \n  HOURS OF OPERATION : MON-SUN  0800-1600                                       \n  ENVIRONMENT        : AMS STATION                                              \n  SPECIFICS/RESTRICTIONS:                                                       \n  CBP / US CUSTOMS CBP                                                          \n  NORMAL OPERATING HOURS 08H00-16H00. AFTER HOURS AVI CLEARANCE AVAILABLE       \n  PHONE 305-869-2740/2769                                                       \n  AGENCY IS LOCATED AT CARGO CLEARANCE CENTER- 6601 NW"
+                    },
+                    "bookingClosedOn": "2024-10-12T08:40:00.000Z",
+                    "allocation": {
+                        "code": "KK",
+                        "description": "SPACE CONFIRMED"
+                    },
+                    "actionStatusCode": "FBL",
+                    "actionStatusValue": "Adviced",
+                    "receivedPieces": 0
+                }
+            ],
+            "shipper": null,
+            "emergencyContact": null,
+            "consignee": null,
+            "specialHandlingCodes": [
+                {
+                    "code": "ONE",
+                    "description": "Code for Book by Cargo.one"
+                },
+                {
+                    "code": "NSC",
+                    "description": "Not Secured Cargo"
+                }
+            ],
+            "excludeBookingRelease": false,
+            "productCode": "GEN",
+            "priceClassCode": "WEB",
+            "handlingRemarks": [
+            ],
+            "specialServiceRequest": null,
+            "otherServiceInformation": null,
+            "remarks": "146.13 EUR, STACKABLE, NON TURNABLE, Shipment Not Secure",
+            "iataNoteCode": null,
+            "temperature": [
+            ],
+            "price": null,
+            "bidPriceEvaluation": null,
+            "bidPriceEvaluationRemarks": null,
+            "bookingType": null,
+            "commodityCode": null,
+            "containerCounts": null,
+            "includesShipperBuiltUnits": null,
+            "dryIce": null,
+            "avi": null,
+            "dangerousGoods": null,
+            "irregularities": null,
+            "notes": null,
+            "costs": null,
+            "customs": {
+                "consolidatedStatusColor": -2894893,
+                "notifications": [
+                ]
+            },
+            "ratingLines": null,
+            "valueForCarriage": 0,
+            "valueForCustoms": 0,
+            "overSize": false,
+            "mustFly": false,
+            "breakDown": false,
+            "bookOnRemainingAllotmentSpace": false,
+            "softBookingId": null,
+            "deliveryCall": false,
+            "deliveryRemarks": null,
+            "createdOn": "2024-08-29T11:08:38.041Z",
+            "createdBy": "CARGOONE",
+            "modifiedOn": "2024-10-11T09:04:24.844Z",
+            "modifiedBy": "CCINC22",
+            "warnings": [
+            ],
+            "_links": {
+                "self": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258"
+                },
+                "cancel": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258/cancellation-requests"
+                },
+                "void": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258/void-requests"
+                },
+                "price": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258"
+                }
+            },
+            "eawb": null,
+            "spaadhocIndicator": false,
+            "ULDs": [
+            ],
+            "OSIRemarks": [
+                "146.13 EUR, STACKABLE, NON TURNABLE"
+            ]
+        },
+        {
+            "id": "1436258",
+            "airWaybill": {
+                "prefix": "055",
+                "serial": "23766945",
+                "consolidation": false
+            },
+            "issueCarrier": {
+                "code": "AZ",
+                "name": "ITALIA TRASPORTO AEREO SPA"
+            },
+            "origin": {
+                "code": "FCO",
+                "type": "AIRPORT",
+                "name": "Rome Fiumicino",
+                "timeArea": "Europe/Rome",
+                "utcOffset": 60
+            },
+            "destination": {
+                "code": "MIA",
+                "type": "AIRPORT",
+                "name": "Miami",
+                "timeArea": "America/New_York",
+                "utcOffset": -300,
+                "restrictExport": "EXPORT OVERSIZED SHIPMENTS THAT REQUIRE FLATBED TRUCKS.                       \n  PLEASE BE SURE TO CONTACT THE GHA 786-437-2376 24 HRS                         \n  IN ADVANCE TO ARRANGE RAMP ACCESS WITH AIRPORT AUTHORITIES.                   \n  YOU MUST PROVIDE THE GHA WITH THE NAME OF THE TRUCKING COMPANY                \n  AND ANTICIPATED ARRIVAL (DELIVERY) TIME. THANK YOU.\n  SECURITY: VAL CARGO ROOM YES / VAL CAGE YES (BOTH LIMITED TO 1MC).            \n  BANKNOTES MUST BE COLLECTED SAME DAY AS ARRIVAL/FRACTIONS PROHIBITED.",
+                "restrictImport": "VAL FRACTIONS REQUIRING OVERNIGHT STORAGE SUBJECT TO ADDITIONAL               \n  SECURITY CHARGES. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.   \nPHARMA CRT 15/25 SHIPMENT IMPORT OPEN // PRE ALERT MESSAGE REQUIRED          \nALL VALUABLE  VULNERABLE AND SECURITY SENSITIVE SHIPMENTS REQUIRE             \n  SECURITY RAMP ESCORT. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.    \n  IMPORT: ELECTRONIC SUBMISSION  OF HAWB INFORMATION FOR CBP 4 HOURS PRIOR TO   \n          ARRIVAL IN USA FROM EUROPE",
+                "restrictTransit": "AVI NOTICE FOR LIVE ANIMALS INTO MIA (IMPORT):                                \n  DO NOT SEND AVI ON CC BASIS. PP ONLY. DO NOT ASK FOR CC ACCORD.               \n  YOU ARE WELCOME TO SEND AVI ON PP BASIS.                                      \n                                                                                \n  US CUSTOMS/FISH AND WILDLIFE                                                  \n *********************                                                          \n  HOURS OF OPERATION : MON-SUN  0800-1600                                       \n  ENVIRONMENT        : AMS STATION                                              \n  SPECIFICS/RESTRICTIONS:                                                       \n  CBP / US CUSTOMS CBP                                                          \n  NORMAL OPERATING HOURS 08H00-16H00. AFTER HOURS AVI CLEARANCE AVAILABLE       \n  PHONE 305-869-2740/2769                                                       \n  AGENCY IS LOCATED AT CARGO CLEARANCE CENTER- 6601 NW"
+            },
+            "shippersReferenceNumber": null,
+            "agent": {
+                "accountNumber": "38472590015",
+                "name": "GABELLA SERVIZI INT.LI SRL",
+                "clientType": [
+                    "AGENT"
+                ],
+                "type": "AGT",
+                "branchCode": "FCO",
+                "salesAreaCode": "FCO",
+                "status": "Active",
+                "stockholder": true,
+                "agentGroups": [
+                ]
+            },
+            "status": "CONFIRMED",
+            "salesArea": {
+                "code": "FCO",
+                "countryCode": "IT",
+                "name": "Italia"
+            },
+            "currency": {
+                "code": "EUR",
+                "name": "EURO"
+            },
+            "shipmentChargeCode": null,
+            "freightChargeType": "Prepaid",
+            "otherChargesType": "Prepaid",
+            "reference": "cargoone",
+            "customsOriginCode": null,
+            "customsSecurityNotifications": null,
+            "customsSecurityStatusCode": null,
+            "iataClassRuleCode": null,
+            "pieces": 1,
+            "weight": {
+                "amount": 60,
+                "unit": "KG"
+            },
+            "volume": {
+                "amount": 0.499,
+                "unit": "MC"
+            },
+            "densityCode": null,
+            "chargeableWeight": {
+                "amount": 83.5,
+                "unit": "KG"
+            },
+            "slac": null,
+            "countOfUNNumbers": null,
+            "natureOfGoods": "GENERAL",
+            "adhocPrices": [
+            ],
+            "movementPriority": "S3",
+            "dimensions": {
+                "measurements": [
+                    {
+                        "id": "1",
+                        "pieces": 1,
+                        "length": 120,
+                        "width": 80,
+                        "height": 52,
+                        "volume": {
+                            "amount": 0.499,
+                            "unit": "MC"
+                        }
+                    }
+                ],
+                "unit": "CMT"
+            },
+            "otherCustomsAndSecurityInformation": null,
+            "routing": [
+                {
+                    "transportMeans": {
+                        "id": "2411987",
+                        "reference": "AZ630/12Oct",
+                        "carrier": {
+                            "code": "AZ",
+                            "name": "ITALIA TRASPORTO AEREO SPA"
+                        },
+                        "number": "630",
+                        "date": "2024-10-12",
+                        "mode": "AIR",
+                        "scheduledDeparture": "2024-10-12T10:40:00+02:00",
+                        "scheduledArrival": "2024-10-12T16:00:00-04:00",
+                        "aircraftType": {
+                            "code": "339",
+                            "name": "Airbus 339"
+                        }
+                    },
+                    "pieces": 1,
+                    "weight": {
+                        "amount": 60,
+                        "unit": "KG"
+                    },
+                    "volume": {
+                        "amount": 0.499,
+                        "unit": "MC"
+                    },
+                    "dryIcePieces": 0,
+                    "id": "1",
+                    "origin": {
+                        "code": "FCO",
+                        "type": "AIRPORT",
+                        "name": "Rome Fiumicino",
+                        "timeArea": "Europe/Rome",
+                        "utcOffset": 60
+                    },
+                    "destination": {
+                        "code": "MIA",
+                        "type": "AIRPORT",
+                        "name": "Miami",
+                        "timeArea": "America/New_York",
+                        "utcOffset": -300,
+                        "restrictExport": "EXPORT OVERSIZED SHIPMENTS THAT REQUIRE FLATBED TRUCKS.                       \n  PLEASE BE SURE TO CONTACT THE GHA 786-437-2376 24 HRS                         \n  IN ADVANCE TO ARRANGE RAMP ACCESS WITH AIRPORT AUTHORITIES.                   \n  YOU MUST PROVIDE THE GHA WITH THE NAME OF THE TRUCKING COMPANY                \n  AND ANTICIPATED ARRIVAL (DELIVERY) TIME. THANK YOU.\n  SECURITY: VAL CARGO ROOM YES / VAL CAGE YES (BOTH LIMITED TO 1MC).            \n  BANKNOTES MUST BE COLLECTED SAME DAY AS ARRIVAL/FRACTIONS PROHIBITED.",
+                        "restrictImport": "VAL FRACTIONS REQUIRING OVERNIGHT STORAGE SUBJECT TO ADDITIONAL               \n  SECURITY CHARGES. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.   \nPHARMA CRT 15/25 SHIPMENT IMPORT OPEN // PRE ALERT MESSAGE REQUIRED          \nALL VALUABLE  VULNERABLE AND SECURITY SENSITIVE SHIPMENTS REQUIRE             \n  SECURITY RAMP ESCORT. CONTACT MIAFKAF FOR CHARGES BEFORE SENDING SHIPMENT.    \n  IMPORT: ELECTRONIC SUBMISSION  OF HAWB INFORMATION FOR CBP 4 HOURS PRIOR TO   \n          ARRIVAL IN USA FROM EUROPE",
+                        "restrictTransit": "AVI NOTICE FOR LIVE ANIMALS INTO MIA (IMPORT):                                \n  DO NOT SEND AVI ON CC BASIS. PP ONLY. DO NOT ASK FOR CC ACCORD.               \n  YOU ARE WELCOME TO SEND AVI ON PP BASIS.                                      \n                                                                                \n  US CUSTOMS/FISH AND WILDLIFE                                                  \n *********************                                                          \n  HOURS OF OPERATION : MON-SUN  0800-1600                                       \n  ENVIRONMENT        : AMS STATION                                              \n  SPECIFICS/RESTRICTIONS:                                                       \n  CBP / US CUSTOMS CBP                                                          \n  NORMAL OPERATING HOURS 08H00-16H00. AFTER HOURS AVI CLEARANCE AVAILABLE       \n  PHONE 305-869-2740/2769                                                       \n  AGENCY IS LOCATED AT CARGO CLEARANCE CENTER- 6601 NW"
+                    },
+                    "bookingClosedOn": "2024-10-12T08:40:00.000Z",
+                    "allocation": {
+                        "code": "KK",
+                        "description": "SPACE CONFIRMED"
+                    },
+                    "actionStatusCode": "FBL",
+                    "actionStatusValue": "Adviced",
+                    "receivedPieces": 0
+                }
+            ],
+            "shipper": null,
+            "emergencyContact": null,
+            "consignee": null,
+            "specialHandlingCodes": [
+                {
+                    "code": "ONE",
+                    "description": "Code for Book by Cargo.one"
+                },
+                {
+                    "code": "NSC",
+                    "description": "Not Secured Cargo"
+                }
+            ],
+            "excludeBookingRelease": false,
+            "productCode": "GEN",
+            "priceClassCode": "WEB",
+            "handlingRemarks": [
+            ],
+            "specialServiceRequest": null,
+            "otherServiceInformation": null,
+            "remarks": "146.13 EUR, STACKABLE, NON TURNABLE, Shipment Not Secure",
+            "iataNoteCode": null,
+            "temperature": [
+            ],
+            "price": null,
+            "bidPriceEvaluation": null,
+            "bidPriceEvaluationRemarks": null,
+            "bookingType": null,
+            "commodityCode": null,
+            "containerCounts": null,
+            "includesShipperBuiltUnits": null,
+            "dryIce": null,
+            "avi": null,
+            "dangerousGoods": null,
+            "irregularities": null,
+            "notes": null,
+            "costs": null,
+            "customs": {
+                "consolidatedStatusColor": -2894893,
+                "notifications": [
+                ]
+            },
+            "ratingLines": null,
+            "valueForCarriage": 0,
+            "valueForCustoms": 0,
+            "overSize": false,
+            "mustFly": false,
+            "breakDown": false,
+            "bookOnRemainingAllotmentSpace": false,
+            "softBookingId": null,
+            "deliveryCall": false,
+            "deliveryRemarks": null,
+            "createdOn": "2024-08-29T11:08:38.041Z",
+            "createdBy": "CARGOONE",
+            "modifiedOn": "2024-10-11T09:04:24.844Z",
+            "modifiedBy": "CCINC22",
+            "warnings": [
+            ],
+            "_links": {
+                "self": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258"
+                },
+                "cancel": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258/cancellation-requests"
+                },
+                "void": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258/void-requests"
+                },
+                "price": {
+                    "href": "https://api-gateway.champ.aero/booking/v2/bookings/1436258"
+                }
+            },
+            "eawb": null,
+            "spaadhocIndicator": false,
+            "ULDs": [
+            ],
+            "OSIRemarks": [
+                "146.13 EUR, STACKABLE, NON TURNABLE"
+            ]
+        }        
+        
+    ]
+}
